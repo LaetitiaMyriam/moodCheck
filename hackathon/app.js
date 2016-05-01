@@ -4,6 +4,7 @@ var express    = require('express'),
   watson       = require('watson-developer-cloud');
 app.listen(3000);
 
+
 var toneAnalyzer = watson.tone_analyzer({
   url: 'https://gateway.watsonplatform.net/tone-analyzer-beta/api/',
   username: 'e5c64c08-8993-492b-ae49-baba98c7865b',
